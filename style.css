@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: #FAFAFA;
+  margin: 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  margin-left: 60px;
+  padding-top: 30px;
+}
+
+.container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.write-task {
+  height: 50px;
+  position: relative;
+  margin-bottom: 20px;
+  transition: .2s;
+}
+
+.write-task-input:hover {
+  background-color: #81D4FA;
+}
+
+.write-task-input {
+  background-color: #B3E5FC;
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+  padding-left: 40px;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.add-task-icon {
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  top: 15px;
+  left: 12px;
+
+}
+
+.add-task-icon:hover {
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+::-moz-placeholder {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.to-do-list-item {
+  display: flex;
+  background-color: #F5F5F5;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: .2s;
+}
+
+.to-do-list-item:hover {
+  background-color: #E0E0E0;
+  cursor: pointer;
+}
+
+.to-do-list-item p {
+  margin-left: 10px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  margin-left: 12px;
+  border: 0;
+}
+
+.remove-list {
+  font-size: 31px;
+  height: 35px;
+  width: 200px;
+  margin-top: 30px;
+  margin-right: 60px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  background-color: #ef9a9a;
+  color: #ffffff;
+  transition: .2s;
+}
+
+.remove-list:hover {
+  cursor: pointer;
+  background-color: #e57373;
+}
+
+.close-icon {
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  left: 1267px;
+}

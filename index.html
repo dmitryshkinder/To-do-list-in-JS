@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>To Do List</h1>
+    <button class="remove-list">
+      Clear List
+    </button>
+  </header>
+  <main class="container">
+    <div class="write-task">
+      <i class="fas fa-plus icon add-task-icon"></i>
+      <input class="write-task-input" type="text" placeholder="New-to-do.." />
+    </div>
+    <ul class="to-do-list">
+      <li class="to-do-list-item">
+        <input class="checkbox" type="checkbox" />
+        <p>Poiti popisit'</p>
+        <i class="far fa-window-close close-icon"></i>
+      </li>
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
